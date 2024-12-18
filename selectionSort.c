@@ -22,7 +22,7 @@ int main(void)
     }
     printf("\n");
 
-    // Selection sorting (O[n^2])
+    // Selection sorting (O[n^2]) (Ω[n^2])
     while (sorter < (sortLength * sortLength)) {
         for (counter = 0; counter < sortLength - 1; counter++) {
             if (range[counter] > range[counter + 1]) {
