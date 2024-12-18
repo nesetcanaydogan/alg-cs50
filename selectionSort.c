@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     // Declaring neccessary variables
     int counter, temp, sortLength; int sorter = 0;
 
@@ -33,6 +32,7 @@ int main(void)
         }
         sorter++;
     }
+    printf("Process time: %d\n", sorter);
 
     // Printing the sorted array
     for (counter = 0; counter < sortLength; counter++) {
